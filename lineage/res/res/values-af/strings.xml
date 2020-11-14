@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+               (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permlab_modifyProfiles">verander stelsel profiele</string>
+    <string name="permdesc_modifyProfiles">Laat \'n toep toe om stelsel profiele te verander.</string>
+    <string name="permlab_useHardwareFramework">gebruik hardeware raamwerk</string>
+    <string name="permlab_protectedApp">voegby of verwyder toeps na beskermde toeps</string>
+    <string name="permdesc_protectedApp">Laat \'n toep toe om ander toeps as beskermde toep te merk en hulle toe te sluit.</string>
+    <string name="profileNameDefault">Normaal</string>
+    <string name="profileNameWork">Werk</string>
+    <string name="profileNameHome">Tuis</string>
+    <string name="profileNameSilent">Stil</string>
+    <string name="profileNameNight">Nag</string>
+    <string name="profileNameAutomobile">Motor</string>
+    <string name="profileGroupPhone">Foon</string>
+    <string name="profileGroupCalendar">Kalender</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">Epos</string>
+    <string name="profileGroupSMS">SMS</string>
+    <string name="wildcardProfile">Ander</string>
+    <string name="perf_profile_pwrsv">Bespaar krag</string>
+    <string name="perf_profile_bal">Gebalanseerd</string>
+    <string name="perf_profile_perf">Werkverrigting</string>
+    <string name="perf_profile_bias_power">Doeltreffendheid</string>
+    <string name="perf_profile_bias_perf">Vinnige</string>
+    <string name="perf_profile_pwrsv_summary">Maksimum kragbesparings, verminder toestel prestasie</string>
+    <string name="perf_profile_bal_summary">Balans van optimale prestasie en krageienskappe</string>
+    <string name="perf_profile_perf_summary">Hoë-prestasiemodus. Nuttig vir toepaasings wat lae netwerklatensie en hoogste deurvoer vereis wanneer kragverbruik is nie \'n bron van kommer nie</string>
+    <string name="perf_profile_bias_power_summary">Gee voorkeur aan kragbesparing. Beperk maksimum SVE-krag en optimeer vir kragbesparing ten koste van hoër netwerk latensie</string>
+    <string name="perf_profile_bias_perf_summary">Gee voorkeur aan prestasie. Goeie prestasie ten koste van hoër kragverbruik</string>
+    <string name="live_display_auto">Outomaties</string>
+    <string name="live_display_auto_summary">Kleurtemperatuur van die skerm sal outomaties aanpas na sononder en sonop</string>
+    <string name="live_display_off">Af</string>
+    <string name="live_display_off_summary">Skakel al die aanpassings af</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_day_summary">Gebruik dag instellings alleenlik</string>
+    <string name="live_display_night">Nag</string>
+    <string name="live_display_night_summary">Gebruik nag instellings alleenlik</string>
+    <string name="live_display_outdoor">Buitekant (helder son)</string>
+    <string name="live_display_outdoor_summary">Gebruik buite instellings alleenlik</string>
+    <string name="live_display_hint">LewendigeVertoning kan jou oogspanning verminder en help jou slaap in die nag. Klik hier om dit uit te probeer!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay af.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: outo modus.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: dag modus.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: nag modus.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: buitelug modus.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay afgeskakel.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay verander na outo modus.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay verander na dag modus.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay verander na nag modus.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay verander na buitelug modus.</string>
+    <string name="permlab_perfAccess">toegang na prestasie bestuurder</string>
+    <string name="permdesc_perfAccessDesc">Laat \'n toep toe om toegang na die prestasie diens te verkry. Moet nooit nodig wees vir normale programme nie.</string>
+    <string name="permlab_weather_read">lees weer</string>
+    <string name="permdesc_weather_read">Laat \'n toep toe om inhoud te lees vanaf die weer verskaffer.</string>
+    <string name="permlab_weather_write">opdateer weer verskaffer</string>
+    <string name="permdesc_weather_write">Laat \'n toep toe om inhoud van die weer verskaffer by te werk.</string>
+    <string name="permlab_weather_bind">bind as \'n weer verskaffer diens</string>
+    <string name="permdesc_weather_bind">Laat \'n toep toe om as \'n weer diens verskaffer geïdentifiseer te word.</string>
+    <string name="permlab_weather_access_mgr">toegang na weer diens</string>
+    <string name="permdesc_weather_access_mgr">Laat \'n toep om toegang te verkry tot die weer diens in die stelsel. Moet nooit nodig wees vir die normale toepassings.</string>
+    <string name="permlab_dataUsageWrite">modifiseer data gebruik databasis</string>
+    <string name="permdesc_dataUsageWrite">Laat \'n toep toe om die inhoud opdateer van die data gebruik databasis.</string>
+    <string name="permlab_dataUsageRead">lees data gebruik databasis</string>
+    <string name="permdesc_dataUsageRead">Laat \'n toep toe om inhoud te lees van die data gebruik databasis.</string>
+    <string name="permlab_manageLiveDisplay">bestuur LiveDisplay instellings</string>
+    <string name="permdesc_manageLiveDisplay">Laat \'n toep toe om gevorderde skerm instellings te konfigureer.</string>
+    <string name="permlab_observe_audio_sessions">neem oudio-sessie verandering waar</string>
+    <string name="permdesc_observe_audio_sessions">Laat \'n toep toe, om oudio-strome wat geskep en vernietig word, waar te neem.</string>
+    <string name="permlab_manageRemotePrefs">bestuur afgeleë opsies</string>
+    <string name="permdesc_manageRemotePrefs">Laat \'n toepassing toe om afgeleë opsies te bestuur</string>
+</resources>

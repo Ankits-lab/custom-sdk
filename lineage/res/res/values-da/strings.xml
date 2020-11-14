@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+               (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lineageos_system_label">LineageOS System</string>
+    <string name="permlab_modifyProfiles">ændre systemprofiler</string>
+    <string name="permdesc_modifyProfiles">Tillader en app at ændre systemprofiler.</string>
+    <string name="permlab_useHardwareFramework">brug udstyrs-programmingsplatform</string>
+    <string name="permdesc_useHardwareFramework">Tillader en app adgang til Lineage udstyrs-programmingsplatformen.</string>
+    <string name="permlab_writeSettings">modificere Lineage system-indstillinger</string>
+    <string name="permdesc_writeSettings">Tillader en app at modificere Lineage system-indstillinger.</string>
+    <string name="permlab_writeSecureSettings">modificere Lineage sikre system-indstillinger</string>
+    <string name="permdesc_writeSecureSettings">Tillader en app at modificere Lineage sikre system-indstillinger. Ikke til brug af normale apps.</string>
+    <string name="permlab_protectedApp">tilføj og fjern apps, til beskyttede apps</string>
+    <string name="permdesc_protectedApp">Tillader en app at markere andre apps som beskyttet samt låse dem.</string>
+    <string name="profileNameDefault">Standard</string>
+    <string name="profileNameWork">Arbejde</string>
+    <string name="profileNameHome">Hjem</string>
+    <string name="profileNameSilent">Lydløs</string>
+    <string name="profileNameNight">Nat</string>
+    <string name="profileNameAutomobile">Bil</string>
+    <string name="profileGroupPhone">Telefon</string>
+    <string name="profileGroupCalendar">Kalender</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">E-mail</string>
+    <string name="profileGroupSMS">SMS</string>
+    <string name="wildcardProfile">Andre</string>
+    <string name="perf_profile_pwrsv">Strømbesparelse</string>
+    <string name="perf_profile_bal">Balanceret</string>
+    <string name="perf_profile_perf">Ydeevne</string>
+    <string name="perf_profile_bias_power">Effektivitet</string>
+    <string name="perf_profile_bias_perf">Hurtig</string>
+    <string name="perf_profile_pwrsv_summary">Maksimal strømbesparelse, reducerer enhedens ydeevne</string>
+    <string name="perf_profile_bal_summary">Balance mellem optimal ydelse og strømegenskaber</string>
+    <string name="perf_profile_perf_summary">Højtydende tilstand. Nyttigt for programmer, der kræver lav latenstid og højeste dataoverførselshastighed, når der ikke skal tages hensyn til strømforbruget</string>
+    <string name="perf_profile_bias_power_summary">Prioritér strømbesparelser. Begræns maksimal CPU-kraft og optimér til strømbesparelse på bekostning af højere latenstid</string>
+    <string name="perf_profile_bias_perf_summary">Prioritér ydeevne. Reducerer latenstid på bekostning af en smule øget strømforbrug</string>
+    <string name="live_display_auto">Automatisk</string>
+    <string name="live_display_auto_summary">Justér automatisk skærms farvetemperatur, efter solnedgang og solopgang</string>
+    <string name="live_display_off">Fra</string>
+    <string name="live_display_off_summary">Deaktivér alle justeringer</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_day_summary">Brug kun dag-indstillinger</string>
+    <string name="live_display_night">Nat</string>
+    <string name="live_display_night_summary">Brug kun nat-indstillinger</string>
+    <string name="live_display_outdoor">Udendørs (stærk sol)</string>
+    <string name="live_display_outdoor_summary">Brug kun udendørsindstillinger</string>
+    <string name="live_display_hint">LiveDisplay kan hjælpe med at reducere overanstrengelse af øjnene og hjælpe dig med at sove om natten. Klik her for at prøve det!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay fra.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: automatisk tilstand.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: dag tilstand.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: nat tilstand.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: udendørstilstand.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay er slået fra.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay ændret til automatisk tilstand.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay ændret til dag tilstand.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay ændret til nat tilstand.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay ændret til udendørstilstand.</string>
+    <string name="permlab_perfAccess">tilgå ydelseshåndtering</string>
+    <string name="permdesc_perfAccessDesc">Tillader en app at tilgå ydelsestjenesten. Bør aldrig være nødvendigt for normale apps.</string>
+    <string name="permlab_weather_read">læs vejret</string>
+    <string name="permdesc_weather_read">Tillader en app at læse indholdet fra en vejr-udbyder.</string>
+    <string name="permlab_weather_write">opdater vejr-udbyder</string>
+    <string name="permdesc_weather_write">Tillader en app at opdatere indholdet fra en vejr-udbyder.</string>
+    <string name="permlab_weather_bind">forbind som en vejrudbyder service</string>
+    <string name="permdesc_weather_bind">Tillader at en app kan identificeres som en vejrudbyder service.</string>
+    <string name="permlab_weather_access_mgr">tilgå vejr-tjenesten</string>
+    <string name="permdesc_weather_access_mgr">Tillader en app at tilgå vejrtjenesten i systemet. Bør aldrig være nødvendig for alm. apps.</string>
+    <string name="permlab_dataUsageWrite">ændre database for dataforbrug</string>
+    <string name="permdesc_dataUsageWrite">Tillader en app at opdatere indholdet af databasen for dataforbrug.</string>
+    <string name="permlab_dataUsageRead">læs database for dataforbrug</string>
+    <string name="permdesc_dataUsageRead">Tillader en app at læse indholdet af databasen for dataforbrug.</string>
+    <string name="permlab_manageLiveDisplay">håndtér LevendeDisplay-indstillinger</string>
+    <string name="permdesc_manageLiveDisplay">Tillader en app at konfigurere avancerede skærmindstillinger.</string>
+    <string name="permlab_observe_audio_sessions">observér lyd-sessionsændringer</string>
+    <string name="permdesc_observe_audio_sessions">Tillader en app at observere når lyd streams bliver oprettet eller ødelagt.</string>
+    <string name="permlab_manageRemotePrefs">håndtere fjernbetjeningsindstillinger</string>
+    <string name="permdesc_manageRemotePrefs">Tillader en app at håndtere fjernbetjeningsindstillinger</string>
+    <string name="lineage_api_level">LineageOS API-niveau</string>
+    <string name="lineage_updates">LineageOS-opdateringer</string>
+    <string name="lineage_version">LineageOS-version</string>
+    <string name="lineage_vendor_security_patch">Producent-sikkerhedsrettelsesniveau</string>
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="trust_notification_action_manage">Håndtér advarsler</string>
+</resources>
